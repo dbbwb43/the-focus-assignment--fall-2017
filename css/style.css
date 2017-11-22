@@ -54,6 +54,8 @@ span {
 .box-2{
    background-color: #e3e3e3;
    margin:auto;
+   height: 425px
+   width:1600
 }
 .box-3{
    margin:auto;
@@ -63,4 +65,7 @@ h2{
    font-size: 22px;
    font-weight: bolder;
    color: #222222;
+}
+footer{
+   background-color: #e3e3e3;
 }
