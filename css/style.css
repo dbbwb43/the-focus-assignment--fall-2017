@@ -22,10 +22,40 @@
    font-weight:600;
    src: local('Raleway SemiBold'), local('Raleway-Semibold'), url(../fonts/Raleway/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2); format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
+body{
+   margin: auto;
+   width: 1600px;
+   background-color: #f4f4f4;
+   color: #848484;
+   font-family: Helvetica, sans-serif;
+   font-size: 16px;
+   font-weight: normal;
+}
 header{
    background-image: url(../img/large-banner-image.png);
+   background-repeat: no-repeat;
+   height: 700px;
+   width: 1600px;
 }
 span {
    font-family: 'Pacifico';
    font-size: 60px;
+   color: #222222;
+}
+.container{
+   margin:auto;
+   width:1200px;
+}
+.box-1{
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.box-2{
+   background-color: #e3e3e3;
+}
+h2{
+   font-family: 'Raleway';
+   font-size: 22px;
+   font-weight: bolder;
+   color: #222222;
 }
