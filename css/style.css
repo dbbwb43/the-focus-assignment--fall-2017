@@ -49,9 +49,14 @@ span {
 .box-1{
    padding-top: 50px;
    padding-bottom: 50px;
+   margin:auto;
 }
 .box-2{
    background-color: #e3e3e3;
+   margin:auto;
+}
+.box-3{
+   margin:auto;
 }
 h2{
    font-family: 'Raleway';
