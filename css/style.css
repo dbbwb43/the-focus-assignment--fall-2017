@@ -43,6 +43,15 @@ header h1{
    top:100px;
    left:650px;
 }
+header p{
+   position: absolute;
+   top:250px;
+   left:475px;
+   font-family: 'Raleway';
+   font-size: 36px;
+   font-weight: lighter;
+   color: #222222;
+}
 span {
    font-family: 'Pacifico';
    font-size: 60px;
@@ -57,11 +66,17 @@ span {
    padding-bottom: 50px;
    margin:auto;
 }
+.box-1 h2, h3{
+   width:300px;
+}
 .box-2{
    background-color: #e3e3e3;
    margin:auto;
-   height: 425px
-   width:1600
+   height: 425px;
+   width:1600;
+}
+.box-2 h2, h3{
+   width: 550px;
 }
 .box-3{
    margin:auto;
@@ -74,4 +89,7 @@ h2{
 }
 footer{
    background-color: #e3e3e3;
+}
+footer ul{
+   float:left;
 }
