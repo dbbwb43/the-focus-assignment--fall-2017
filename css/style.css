@@ -97,11 +97,15 @@ section .box-3 h1{
 section .box-3 p{
    padding-top: 25px;
    font-size: 14px;
+   padding-bottom: 50px;
 }
 section .box-3 span{
    font-family: Helvetica, sans-serif;
    font-size: 14px;
    font-weight: bold;
+}
+section .box-3 h2{
+   padding-top: 50px;
 }
 h2{
    font-family: 'Raleway';
