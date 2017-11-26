@@ -87,6 +87,7 @@ section .box-2 img:last-of-type{
 section .box-3{
    margin-top: 100px;
    text-align: center;
+   margin-bottom: 50px;
 }
 section .box-3 h1{
    font-family: 'Raleway';
@@ -106,6 +107,11 @@ section .box-3 span{
 }
 section .box-3 h2{
    padding-top: 50px;
+   padding-bottom: 25px;
+}
+section .box-3 h3{
+   margin: auto;
+   padding-bottom: 25px;
 }
 h2{
    font-family: 'Raleway';
@@ -114,6 +120,7 @@ h2{
    color: #222222;
 }
 footer{
+   height: 150px;
    background-color: #e3e3e3;
    text-align: center;
 }
