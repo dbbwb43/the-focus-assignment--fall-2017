@@ -1,0 +1,181 @@
+.wrap{
+  width: 1600px;
+  margin: auto;
+  position: relative;
+  background: #E5E7E9;
+}
+
+.banner {
+  width: 1600px;
+  height: 700px;
+  margin: auto;
+}
+.phone {
+  width: 464px;
+  height: 806px;
+  margin: auto;
+  position: absolute;
+  left: 565px; top: 405px;
+}
+.down-arrow{
+  width: 50px;
+  height: 15px;
+  margin: auto;
+  position: absolute;
+  left: 767px; top: 330px;
+}
+.focus{
+  width: 68px;
+  height: 68px;
+  margin: auto;
+  position: absolute;
+  left: 670px; top: 115px;
+}
+.white-dot{
+  width: 26px;
+  height: 26px;
+  margin: auto;
+  position: absolute;
+  left: 838px; top: 608px;
+}
+.white-dot-2{
+  width: 26px;
+  height: 26px;
+  margin: auto;
+  position: absolute;
+  left: 710px; top: 695px;
+}
+.white-dot-3{
+  width: 26px;
+  height: 26px;
+  margin: auto;
+  position: absolute;
+  left: 710px; top: 907px;
+}
+.black-dot{
+  width: 32px;
+  height: 32px;
+  margin: auto;
+  position: absolute;
+  left: 840px; top: 838px;
+}
+.angled-line{
+  width: 137px;
+  height: 112px;
+  margin: auto;
+  position: absolute;
+  left: 855px; top: 855px;
+}
+.cursor{
+  width: 17px;
+  height: 19px;
+  margin: auto;
+  position: absolute;
+  left: 853px; top: 855px;
+}
+.box{
+  width: 1600px;
+  height: 425px;
+  margin: auto;
+  position: absolute;
+  background: #E5E7E9;
+  top: 1200px;
+}
+.people{
+  width: 1600px;
+  height: 318px;
+  margin: auto;
+  position: absolute;
+  top: 1800px;
+}
+.video-image{
+  width: 500px;
+  height: 307px;
+  margin: auto;
+  position: absolute;
+  left: 882px; top: 1255px;
+}
+.apple{
+  width: 68px;
+  height: 68px;
+  margin: auto;
+  position: absolute;
+  left: 203px; top: 1423px;
+}
+.android{
+  width: 68px;
+  height: 68px;
+  margin: auto;
+  position: absolute;
+  left: 290px; top: 1423px;
+}
+.windows{
+  width: 68px;
+  height: 68px;
+  margin: auto;
+  position: absolute;
+  left: 377px; top: 1423px;
+}
+.video-play-bar{
+  width: 376px;
+  height: 44px;
+  margin: auto;
+  position: absolute;
+  left: 985px; top: 1500px;
+}
+.active-person{
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  position: absolute;
+  left: 914px; top: 1880px;
+}
+.cursor-2{
+  width: 17px;
+  height: 19px;
+  margin: auto;
+  position: absolute;
+  left: 917px; top: 1937px;
+}
+.twitter{
+  width: 34px;
+  height: 34px;
+  margin: auto;
+  position: absolute;
+  left: 665px; top: 2267px;
+}
+.facebook{
+  width: 34px;
+  height: 34px;
+  margin: auto;
+  position: absolute;
+  left: 709px; top: 2267px;
+}
+.pinterest{
+  width: 34px;
+  height: 34px;
+  margin: auto;
+  position: absolute;
+  left: 753px; top: 2267px;
+}
+.google{
+  width: 34px;
+  height: 34px;
+  margin: auto;
+  position: absolute;
+  left: 797px; top: 2267px;
+}
+.linkedin{
+  width: 34px;
+  height: 34px;
+  margin: auto;
+  position: absolute;
+  left: 841px; top: 2267px;
+}
+.youtube{
+  width: 34px;
+  height: 34px;
+  margin: auto;
+  position: absolute;
+  left: 885px; top: 2267px;
+}
