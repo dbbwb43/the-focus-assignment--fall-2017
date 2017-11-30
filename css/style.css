@@ -1,36 +1,62 @@
-@font-face {
-  font-family: Pacifico Regular;
-  src: url('../fonts/Pacifico/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2');
-
-}
-
-@font-face {
-  font-family: Raleway Regular;
-  src: url('../fonts/Raleway/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2');
-
-}
-
-@font-face {
-  font-family: Raleway Light;
-  src: url('../fonts/Raleway/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2');
-
-}
-
-
-@font-face {
-  font-family: Raleway Semibold;
-  src: url('../fonts/Raleway/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2');
-
-}
-
-@font-face {
-  font-family: Helvetica Neue;
-  src: url('../fonts/Pacifico/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2');
-
-}
-body{
-  font: 15px/1.5 Arial,Helvetica,sanserif;
+body {
+  line-height: 1.5;
+  font-family: centaur, sans-serif;
+  font-weight: 300;
   padding: 0;
   margin: 0;
-  background-color:#ffffff
+  background-color: #f4f4f4;
+
+}
+
+
+div.container {
+  width: 80%;
+  margin: auto;
+  padding: 12px;
+}
+
+
+#header{
+  width:1600px;
+  height:669px;
+  background: url('../img/large-banner-image.png') no-repeat fixed 0 0 / cover;
+
+ }
+
+#appvid{
+  background-color: #e3e3e3;
+  min-height: 426px;
+
+}
+
+#backface{
+  min-height: 325px;
+  background: url('../img/people.png') no-repeat;
+}
+
+blockquote{
+  text-align: center;
+  min-height: 175px;
+
+}
+
+blockquote .highlight{
+  font-weight: bold;
+}
+
+#getin{
+  min-height: 250px;
+}
+
+footer {
+  background-color:#e3e3e3;
+  min-height: 125px;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+footer a {
+  color: red;
+  text-decoration: none;
 }

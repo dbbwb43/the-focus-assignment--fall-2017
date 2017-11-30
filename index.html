@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
    <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name= "viewport" content="width=device-width">
 
 
    <!-- Replace FIRST NAME and LAST NAME below with your first and last names. -->
@@ -12,14 +12,15 @@
    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <header>
+   <section id="header">
     <div class="container">
        <div id="logo">
+         <img src="./img/focus.png" alt="logo">
          <h1> Focus</h1>
          <p> A landing page for your app with focus</p>
        </div>
-    </div>
-  </header>
+     </div>
+   </section>
 
   <section id="features">
     <div class="container">
@@ -44,35 +45,39 @@
    </section>
 
     <section id="appvid">
-        <h2>Get The App Today!</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla nisl congue congue. Maecenas nec condimentum libero, at alimentum mauris. Phasellus eget nisi dapibus, ultricies nisl at, hendrerit risusuis ornare luctus id sollicitudin ante lobortis at.</p>
-
         <div class="container">
+          <h2>Get The App Today!</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla nisl congue congue. Maecenas nec condimentum libero, at alimentum mauris. Phasellus eget nisi dapibus, ultricies nisl at, hendrerit risusuis ornare luctus id sollicitudin ante lobortis at.</p>
+        </div>
+
+         <div class="container">
           <div id= "icons">
             <img src="./img/apple.png" alt="apple logo">
-          </div>
-          <div class="container">
             <img src="./img/android.png" alt="android logo">
-          </div>
-          <div class="container">
-            <img src="./img/windows.png" alt="wondows logo">
+            <img src="./img/windows.png" alt="windows logo">
           </div>
         </div>
-     </section>
+      </section>
 
-        <blockquote><p>Focus is an app that is extremely useful. I would reccomend it to anyone.</p>
+
+        <div class="container">
+          <blockquote><p>Focus is an app that is extremely useful. I would reccomend it to anyone.</p>
                     <p><span class="highlight">Kyle Turner</span>, Blogger</p></blockquote>
+        </div>
 
-      <div class="container">
+      <div id="backface">
+        <div class="container">
         <img src="./img/active-person.png" alt="person">
       </div>
+    </div>
 
      <section id="getin">
-       <h3>Say Hi & Stay in Touch</h3>
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse.</p>
-     </section>
+       <div class="container">
+         <h3>Say Hi & Stay in Touch</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse.</p>
+       </div>
 
-    <div class="container">
+      <div class="container">
       <div id= "smedia">
         <img src="./img/twitter.png" alt="twitter logo">
         <img src="./img/facebook.png" alt="facebook logo">
@@ -82,6 +87,9 @@
         <img src="./img/youtube.png" alt="youtube logo">
       </div>
     </div>
+  </section>
+
+     <footer><a href="humans.txt">Contact</a></footer>
 
 </body>
 </html>
