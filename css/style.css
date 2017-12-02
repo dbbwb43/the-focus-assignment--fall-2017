@@ -57,6 +57,10 @@ span {
    font-size: 60px;
    color: #222222;
 }
+header img:nth-of-type(2){
+   position:absolute;
+   left:200px;
+}
 section .box-1{
    background-color: #f4f4f4;
    height:450px;
@@ -65,9 +69,9 @@ section .box-1{
    margin:0px;
    position:relative;
 }
-article{
+.phone{
    position: relative;
-   left:600px;
+   left:570px;
    top: -300px;
 }
 #one{
@@ -87,42 +91,55 @@ section .box-1 h2, h3{
    position: relative;
    width: 300px;
    top:-710px;
+   line-height: 30px;
 }
 section .box-1 h2:nth-of-type(1){
    position: relative;
    width: 300px;
-   top:-710px;
-   left:200px;
+   top:-780px;
+   left:280px;
 }
 section .box-1 h3:nth-of-type(1){
    position: relative;
    width: 300px;
-   top:-710px;
-   left:200px;
+   top:-760px;
+   left:280px;
 }
 section .box-1 h2:nth-of-type(2){
    position: relative;
    width: 300px;
-   top:-750px;
-   left:1200px;
+   top:-900px;
+   left:1020px;
 }
 section .box-1 h3:nth-of-type(2){
    position: relative;
    width: 300px;
-   top:-750px;
-   left:1200px;
+   top:-880px;
+   left:1020px;
 }
 section .box-1 h2:nth-of-type(3){
    position: relative;
    width: 300px;
-   top:-750px;
-   left:200px;
+   top:-820px;
+   left:280px;
 }
 section .box-1 h3:nth-of-type(3){
    position: relative;
    width: 300px;
-   top:-710px;
-   left:200px;
+   top:-800px;
+   left:280px;
+}
+section .box-1 h2:nth-of-type(4){
+   position: relative;
+   width: 300px;
+   top:-940px;
+   left:1020px;
+}
+section .box-1 h3:nth-of-type(4){
+   position: relative;
+   width: 300px;
+   top:-920px;
+   left:1020px;
 }
 section .box-2{
    position:relative;
@@ -140,19 +157,19 @@ section .box-2{
 }
 #container h2{
    position: absolute;
-   left: 200px;
+   left: 210px;
    padding-bottom: 25px;
 }
 #container h3{
    position: absolute;
-   left: 200px;
+   left: 210px;
    top: 100px;
    width:500px;
    line-height: 25px;
 }
 #container p{
    position: absolute;
-   left: 200px;
+   left: 210px;
    top: 225px;
 }
 #container p img:nth-child(2){
@@ -162,7 +179,7 @@ section .box-2{
 #container aside{
    position: absolute;
    top:75px;
-   right: 200px;
+   right: 215px;
 }
 #first{
    position: relative;
