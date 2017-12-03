@@ -1,0 +1,351 @@
+#background {
+  position: absolute;
+}
+
+#focusicon {
+  margin-left: 660px;
+  margin-top: 120px;
+  position: absolute;
+}
+
+#header {
+  font-family: "pacifico";
+  font-size: 65px;
+  margin-left: 760px;
+  margin-top: 120px;
+  position: absolute;
+}
+
+@font-face {
+font-family: "pacifico";
+src: url("../fonts/pacifico/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2");
+}
+
+#hp {
+  font-family: "raleway";
+  font-size: 36px;
+  margin-left: 470px;
+  margin-top: 235px;
+  position: absolute;
+}
+
+@font-face {
+font-family: "raleway";
+src: url("../fonts/raleway/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2");
+}
+
+#iphone {
+  margin-left: 570px;
+  margin-top: 415px;
+  position: absolute;
+}
+
+#downarrow {
+  margin-left: 770px;
+  margin-top: 340px;
+  position: absolute;
+}
+
+#dot1 {
+  margin-left: 840px;
+  margin-top: 615px;
+  position: absolute;
+}
+
+#dot2 {
+  margin-left: 710px;
+  margin-top: 705px;
+  position: absolute;
+}
+
+#dot4 {
+  margin-left: 710px;
+  margin-top: 915px;
+  position: absolute;
+}
+
+#blackdot {
+  margin-left: 847px;
+  margin-top: 817px;
+  position: absolute;
+}
+
+.cursor {
+  margin-left: 860px;
+  margin-top: 833px;
+  position: absolute;
+}
+
+.angleline {
+  margin-left: 868px;
+  margin-top: 847px;
+  position: absolute;
+}
+
+#h1 {
+  font-family: "raleway";
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 270px;
+  margin-top: 750px;
+  position: absolute;
+}
+
+#h2 {
+  font-family: "raleway";
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 1030px;
+  margin-top: 750px;
+  position: absolute;
+}
+
+#h3 {
+  font-family: "raleway";
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 270px;
+  margin-top: 950px;
+  position: absolute;
+}
+
+#h4 {
+  font-family: "raleway";
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 1030px;
+  margin-top: 950px;
+  position: absolute;
+}
+
+.textbox1 {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 26px;
+  margin-left: 270px;
+  margin-top: 775px;
+  color: #848484;
+  position: absolute;
+}
+
+.textbox2 {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 26px;
+  margin-left: 1030px;
+  margin-top: 775px;
+  color: #848484;
+  position: absolute;
+}
+
+.textbox3 {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 26px;
+  margin-left: 270px;
+  margin-top: 975px;
+  color: #848484;
+  position: absolute;
+}
+
+.textbox4 {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 26px;
+  margin-left: 1030px;
+  margin-top: 975px;
+  color: #848484;
+  position: absolute;
+}
+
+#bodycolorbox {
+  width: 1600px;
+  height: 425px;
+  background-color: #e3e3e3;
+  position: absolute;
+  margin-top: 1200px;
+}
+
+#body2h1 {
+  font-family: "raleway";
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 210px;
+  margin-top: 1260px;
+  position: absolute;
+}
+
+.body2p1 {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 26px;
+  margin-left: 210px;
+  margin-top: 1300px;
+  color: #848484;
+  position: absolute;
+}
+
+.videoimage {
+  margin-left: 890px;
+  margin-top: 1259px;
+  position: absolute;
+}
+
+.play {
+  margin-left: 908px;
+  margin-top: 1500px;
+  position: absolute;
+}
+
+.videoplaybar {
+  margin-left: 997px;
+  margin-top: 1500px;
+  position: absolute;
+}
+
+.apple {
+  margin-left: 210px;
+  margin-top: 1425px;
+  position: absolute;
+}
+
+.android {
+  margin-left: 298px;
+  margin-top: 1425px;
+  position: absolute;
+}
+
+.windows {
+  margin-left: 396px;
+  margin-top: 1425px;
+  position: absolute;
+}
+
+.cursor2 {
+  margin-left: 431px;
+  margin-top: 1465px;
+  position: absolute;
+}
+
+#body3h1 {
+  font-family: "raleway";
+  font-size: 24px;
+  margin-left: 400px;
+  margin-top: 1680px;
+  position: absolute;
+}
+
+#body3h2 {
+  font-size: 14px;
+  margin-left: 812px;
+  margin-top: 1725px;
+  position: absolute;
+}
+
+#bold {
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 730px;
+  margin-top: 1725px;
+  position: absolute;
+}
+
+.people {
+  margin-top: 1800px;
+  position: absolute;
+}
+
+.activeperson {
+  margin-top: 1880px;
+  margin-left: 913px;
+  position: absolute;
+}
+
+.cursor3 {
+  margin-top: 1930px;
+  margin-left: 922px;
+  position: absolute;
+}
+
+#say {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 2188px;
+  margin-left: 673px;
+  position: absolute;
+}
+
+#body3p1 {
+  font-size: 16px;
+  margin-top: 2228px;
+  margin-left: 550px;
+  color: #848484;
+  position: absolute;
+}
+
+.twitter {
+  margin-top: 2268px;
+  margin-left: 672px;
+  position: absolute;
+}
+
+.facebook {
+  margin-top: 2268px;
+  margin-left: 716px;
+  position: absolute;
+}
+
+.pinterest {
+  margin-top: 2268px;
+  margin-left: 760px;
+  position: absolute;
+}
+
+.cursor4 {
+  margin-top: 2288px;
+  margin-left: 776px;
+  position: absolute;
+}
+
+.google {
+  margin-top: 2268px;
+  margin-left: 804px;
+  position: absolute;
+}
+
+.linkedin {
+  margin-top: 2268px;
+  margin-left: 848px;
+  position: absolute;
+}
+
+.youtube {
+  margin-top: 2268px;
+  margin-left: 892px;
+  position: absolute;
+}
+
+.footercolorbox {
+  width: 1600px;
+  height: 130px;
+  background-color: #e3e3e3;
+  position: absolute;
+  margin-top: 2358px;
+}
+
+#footerp {
+  word-spacing: 35px;
+  font-size: 16px;
+  margin-top: 2408px;
+  margin-left: 515px;
+  color: #848484;
+  position: absolute;
+}
+
+#Privacy {
+  font-size: 16px;
+  margin-top: 2408px;
+  margin-left: 980px;
+  color: #848484;
+  position: absolute;
+}
