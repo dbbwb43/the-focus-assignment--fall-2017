@@ -1,0 +1,243 @@
+@font-face {
+font-family : "'Pacifico'";
+font-style : normal;
+src : url('../fonts/Pacifico/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2') format('woff2');
+}
+@font-face {
+{
+font-family : "'Raleway Thin'";
+font-style : normal;
+src : url('../fonts/Raleway/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2') format('woff2');
+}
+}
+@font-face {
+{
+font-family : "'Ralewaytwo'";
+font-style : normal;
+src : url('../fonts/Raleway/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2') format('woff2');
+}
+}
+@font-face {
+{
+font-family : "'Ralewaythree'";
+font-style : normal;
+src : url('../fonts/Raleway/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2') format('woff2');
+}
+}
+body {
+text-align : center;
+max-width : 1600px;
+}
+h2 {
+font-family : 'Ralewaythree', sans-serif;
+font-size : 22px;
+}
+header {
+background-image : url("../img/large-banner-image.png");
+height : 700px;
+}
+.banner-container {
+padding-top : 130px;
+}
+.header-icon {
+position : absolute;
+top : 135px;
+right : 848px;
+}
+.focus-typeface {
+display : inline;
+font-family : 'Pacifico', sans-serif;
+font-size : 60px;
+position : absolute;
+top : 135px;
+right : 688px;
+}
+.header-paragraph {
+font-family : 'Raleway Thin', sans-serif;
+font-size : 36px;
+padding-top : 145px;
+padding-bottom : 78px;
+}
+.down-arrow {
+padding-bottom : 55px;
+}
+.feature-container {
+padding-top : 560px;
+}
+.feature-container p {
+padding-top : 20px;
+}
+.left-feature {
+text-align : left;
+font-family : 'Raleway Thin', sans-serif;
+font-size : 16px;
+line-height : 28px;
+position : absolute;
+top : 760px;
+right : 1028px;
+}
+.left-feature p {
+color : #848484;
+}
+.right-feature {
+text-align : left;
+font-family : 'Raleway Thin', sans-serif;
+font-size : 16px;
+line-height : 28px;
+position : absolute;
+top : 760px;
+right : 280px;
+}
+.right-feature p {
+color : #848484;
+}
+.focus-typeface {
+padding-left : 20px;
+}
+.iphone {
+position : absolute;
+top : 458px;
+right : 563px;
+}
+.white-dot-1 {
+position : absolute;
+top : 675px;
+right : 725px;
+}
+.white-dot-2 {
+position : absolute;
+top : 740px;
+right : 850px;
+}
+.white-dot-3 {
+position : absolute;
+top : 940px;
+right : 850px;
+}
+.black-dot {
+position : absolute;
+top : 825px;
+right : 718px;
+}
+.angled-line {
+position : absolute;
+top : 850px;
+right : 598px;
+}
+.cursor {
+position : absolute;
+top : 840px;
+right : 720px;
+}
+h1 {
+font-family : 'Ralewaythree', sans-serif;
+font-size : 22px;
+text-align : left;
+}
+.get-the-app-today-container p {
+text-align : left;
+font-family : 'Raleway Thin', sans-serif;
+font-size : 16px;
+line-height : 28px;
+color : #848484;
+}
+.get-the-app-today-container {
+padding-top : 55px;
+padding-bottom : 245px;
+padding-left : 210px;
+background-color : #e3e3e3;
+}
+.video-screen {
+position : absolute;
+top : 1328px;
+right : 210px;
+}
+.play-button {
+position : absolute;
+top : 1581px;
+right : 615px;
+}
+.video-play-bar {
+position : absolute;
+top : 1581px;
+right : 225px;
+}
+.apple {
+position : absolute;
+top : 1482px;
+right : 1320px;
+}
+.android {
+position : absolute;
+top : 1482px;
+right : 1234px;
+}
+.windows {
+position : absolute;
+top : 1482px;
+right : 1148px;
+}
+.cursor-windows {
+position : absolute;
+top : 1523px;
+right : 1163px;
+}
+.focus-is-an-app-container {
+padding-top : 60px;
+padding-bottom : 60px;
+}
+.footer-focus-paragraph {
+font-family : 'Raleway Thin', sans-serif;
+font-size : 24px;
+}
+.kyle-turner {
+font-family : 'Helvetica Neue', sans-serif;
+font-weight : bold;
+font-size : 14px;
+display : inline;
+}
+.blogger {
+font-family : 'Helvetica Neue', sans-serif;
+font-size : 14px;
+display : inline;
+}
+.people {
+margin-top : 60px;
+}
+.people-color {
+position : absolute;
+top : 1990px;
+right : 601px;
+}
+.say-hi-container {
+padding-top : 5px;
+padding-bottom : 30px;
+}
+.say-hi-paragraph {
+font-family : 'Helvetica Neue', sans-serif;
+font-size : 16px;
+color : #848484;
+}
+.social-media-icons {
+padding-bottom : 75px;
+}
+.social-media-icons img, img {
+padding-right : 5px;
+}
+.cursor-pinterest {
+position : absolute;
+top : 2425px;
+right : 807px;
+}
+footer {
+padding-top : 70px;
+padding-bottom : 70px;
+background-color : #e3e3e3;
+word-spacing : 20px;
+}
+li {
+display : inline;
+font-family : 'Helvetica Neue', sans-serif;
+font-size : 16px;
+color : #848484;
+}
