@@ -60,8 +60,8 @@
 }
 
 .focus {
-  width: 1600px'
-  height: 0px
+  width: 1600px;
+  height: 0px;
   margin: auto;
   position: relative;
   bottom: 2400px;
@@ -100,7 +100,7 @@
   height: 0px;
   margin: auto;
   position: relative;
-  bottom: 1350px
+  bottom: 1350px;
 }
 
 .video {
@@ -258,13 +258,47 @@
 
 h1 {
   font-family: "Pacifico";
-    font-size: 60px;
+    font-size: 60pt;
     text-align: center;
-    text-indent: 90px;
+    text-indent: 78px;
 }
-@font-face {
-    font-family: 'Pacifico';
-    font-style: normal;
-    font-weight: 100;
-    src: local('Pacifico'), local('pacifico'), url('../fonts/Pacifico/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2') format('woff2');
+
+h2 {
+  font-family: 'Raleway Light';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 36pt;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Raleway Semibold';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22pt;
+  text-align: left;
+}
+
+h4 {
+  font-family: 'Raleway Semibold';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22pt;
+  text-align: left;
+}
+
+h5 {
+  font-family: 'Raleway Semibold';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22pt;
+  text-align: left;
+}
+
+h6 {
+  font-family: 'Raleway Semibold';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22pt;
+  text-align: left;
 }
