@@ -1,0 +1,329 @@
+
+#banner {position:relative;
+         display:block;
+         margin:0 auto;
+         z-index:10;
+         background-image: url("../large-banner-image.png");
+         background-repeat: no-repeat;
+         }
+
+/*Over this past week of doing this project. I started to understand and learn
+a certain method that technically helped me out. This style.css has way too many divs
+in all honestly. I think I made the actually large banner doubled. Ehhhhhhhhh I finished
+this project the day before it's due, so right now, this is really my thoughts. I personally
+focused a lot on the html aspect and this aspect. So my efforts for this project was 50% html and
+50% css*/
+
+
+#App-today {position: absolute;
+            font-size:29px;
+            z-index:60;
+            top:1400px;
+            left:180px;
+            font-family:Raleway;
+            font-weight:600;
+            }
+
+
+
+.box {background-color:grey;
+      position:absolute;
+      z-index:10;
+      top:1300px;
+      height:50%;
+      width:100%;
+      opacity:.4;
+      }
+
+#Contact {
+        position:absolute;
+        z-index:30;
+        top:2720px;
+        left:500px;
+        opacity:.5;
+
+        }
+
+#Download {position:absolute;
+      z-index:30;
+      top:2720px;
+      left:600px;
+      opacity:.5;
+      }
+
+#Press {position:absolute;
+      z-index:30;
+      top:2720px;
+      left:680px;
+      opacity:.5;
+      }
+#Email {position: absolute;
+      z-index:30;
+      top:2720px;
+      left:760px;
+      opacity:.5;
+      }
+#Support {position:absolute;
+      z-index:30;
+      top:2720px;
+      left:840px;
+      opacity:.5;
+      }
+#Privacy {position:absolute;
+      z-index:30;
+      top:2720px;
+      left:940px;
+      opacity:.5;
+      }
+
+
+#box2 {background-color:grey;
+            position:absolute;
+            z-index:10;
+            top:2650px;
+            height:20%;
+            width:100%;
+            opacity:.4;
+            }
+
+#text-pt2 {font-family:helvetica;
+          position: absolute;
+          z-index:20;
+          top: 1450px;
+          left:180px;
+          font-weight:lighter;
+          font-size: 16px;
+          opacity:.5;
+          }
+#apple {position: absolute;
+        z-index:20;
+        top: 1550px;
+        left:180px;
+        }
+#android {position: absolute;
+              z-index: 20;
+              top: 1550px;
+              left:260px;
+              }
+
+#windows-logo {position: absolute;
+              z-index: 20;
+              top: 1550px;
+              left:340px;}
+
+#smallhand2 {position: absolute;
+              z-index: 40;
+              top: 1590px;
+              left:375px;
+              }
+
+#video-image {position: absolute;
+              z-index:40;
+              top:1330px;
+              left:835px;
+              }
+
+#video-play-bar {position: absolute;
+                z-index: 40;
+                top:1570px;
+                left:940px;
+                }
+
+
+#video-play {position: absolute;
+            z-index: 40;
+            top: 1570px;
+            left:860px;
+            }
+
+#Hi          {position: relative;
+              z-index:30;
+              top:600px;
+              text-align: center;
+              font-size: 32px;
+              font-family:Raleway;
+              font-weight:600;
+              }
+#latin-small {position: relative;
+              z-index: 30;
+              top:630px;
+              text-align: center;
+              font-size:22px;
+              font-family: helvetica;
+              font-weight:lighter;
+              opacity: .5;
+              }
+
+/*if you read this comment, I say "Hello" */
+
+#twitter-icon {position:absolute;
+              z-index: 30;
+              top: 2560px;
+              left: 595px;
+              }
+
+#facebook-icon {position:absolute;
+              z-index: 30;
+              top: 2560px;
+              left: 655px;
+              }
+
+#pinterest-icon {position:absolute;
+              z-index: 30;
+              top: 2560px;
+              left: 715px;
+              }
+
+#google-icon {position:absolute;
+              z-index: 30;
+              top: 2560px;
+              left: 775px;
+              }
+
+#linkedin-icon {position:absolute;
+              z-index: 30;
+              top: 2560px;
+              left: 835px;
+              }
+
+#youtube-icon {position:absolute;
+              z-index: 30;
+              top: 2560px;
+              left: 895px;
+              }
+
+#focus-text {position:relative;
+            z-index: 30;
+            top: 350px;
+            text-align: center;
+            font-family: Raleway;
+            font-size: 32px;
+            }
+
+#blogger {position:relative;
+          z-index: 30;
+          top:380px;
+          text-align:center;
+          font-family:helvetica;
+          font-size:19px;
+          }
+
+#multiple-faces {position:relative;
+                z-index:30;
+                top:500px;
+                }
+#active-person {position:absolute;
+                z-index: 40;
+                top:2051px;
+                left:865px;
+                }
+
+/*If you can read this, then I'm Greg! What's up guys. If you copy my stuff, then
+I'll know from these weird comments I made the day before this project was due.
+ For some fluffing reason, I couldn't figure out how to group aligned images and
+text to get a better effect, so i made them all into seperate divs. I personally
+wanted to kill myself because of the tedious work, holy Buddha...*/
+
+#focus-title-in-the-bottom {font-family: Raleway;
+                            text-align: center;
+                            font-size: 48px;
+                            z-index:30;
+                            }
+
+/*I honestly don't know how to submit this project... Oh great*/
+
+#dot1 {position:absolute;
+      z-index:50;
+      top:665px;
+      left:810px;
+      }
+
+#dot2 {position:absolute;
+            z-index:50;
+            top:740px;
+            left:670px;
+            }
+#dot3 {position:absolute;
+      z-index:50;
+      top:950px;
+      left:670px;
+      }
+#dot4 {position:absolute;
+      z-index:50;
+      top:840px;
+      left:810px;
+      }
+#smallhand {position:absolute;
+      z-index:50;
+      top:853px;
+      left:822px;
+      }
+#line {position:absolute;
+      z-index:50;
+      top:868px;
+      left:831px;
+      }
+
+#left-text    {position:absolute;
+              font-size: 29px;
+              z-index:50;
+              top:800px;
+              left:180px;
+              font-family:Raleway;
+              font-weight:600;
+              }
+#right-text {position:absolute;
+              font-size: 29px;
+              z-index:50;
+              top:800px;
+              left:990px;
+              font-family:Raleway;
+              font-weight:600;
+              }
+
+/*This project took pretty fluffing wrong. Way too many problems with this stuf...*/
+
+#paragraph-left {position: absolute;
+                font-size:16px;
+                z-index:50;
+                top:840px;
+                left:180px;
+                font-family:Raleway;
+                font-weight:lighter;
+                text-align:left;
+                opacity:50%;
+                }
+
+
+#paragraph-right {position: absolute;
+                font-size:16px;
+                z-index:50;
+                top:840px;
+                left:990px;
+                font-family:Raleway;
+                font-weight:lighter;
+                text-align:left;
+                opacity:50%;
+                }
+
+#hand3 {position: absolute;
+        z-index:60;
+        left:732px;
+        top: 2580px;
+        }
+
+#hand4 {position: absolute;
+        z-index: 60;
+        top:2105px;
+        left:874px;
+        }
+
+#focus {position: relative;
+        text-align: center;
+        font-size:80px;
+        z-index: 20;
+        font-family: Pacifico;
+        }
+/*You reached the end of my style.css, good job! Why did you read this? So boring isn't it?
+I'm just repeating everything you see. Well I'm Greg Yee, nice to meet you. You copy me,
+I'll find you and hunt you down like the person you are. */
