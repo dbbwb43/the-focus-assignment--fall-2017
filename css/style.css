@@ -1,0 +1,492 @@
+.background-white {
+    width: 2494px;
+    height: 1600px;
+    background-color: white;
+}
+
+@font-face {
+  font-family: 'pacifico',cursive;
+  font-style: normal;
+  font-weight: 400;
+  src: local('pacifico'), local('pacifico'), url('https://fonts.googleapis.com/css?family=Pacifico') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'raleway',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: local('raleway-regular'), local('raleway-regular'), url('https://fonts.googleapis.com/css?family=Raleway:300,400,600') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'raleway',sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  src: local('raleway-light'), local('raleway-light'), url('https://fonts.googleapis.com/css?family=Raleway:300,400,600') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'raleway',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  src: local('raleway-semi-bold'), local('raleway-semi-bold'), url('https://fonts.googleapis.com/css?family=Raleway:300,400,600') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
+   h1{
+     font-family:"pacifico";
+     font-size: 60px;
+     margin-top:120px;
+     margin-left:708px;
+     position: absolute;
+     z-index: 3;
+   }
+
+   h2{
+     font-family: "raleway";
+     font-style: normal;
+     font-weight: 300;
+     font-size: 36px;
+     margin-top: 252px;
+     margin-left: 483px;
+     position: absolute;
+     z-index: 3;
+   }
+
+   .grey-box {
+     position: absolute;
+     z-index: 3;
+     background:rgba(132,132,132, 0.2);
+     width: 1600px;
+     height: 430px;
+     margin-top: 1195px;
+   }
+
+
+#toparrow{
+  margin-top: 332px;
+  margin-left: 770px;
+  position: absolute;
+  z-index: 3;
+}
+
+#headimage{
+  position:absolute;
+  z-index: 1;
+}
+
+#phone{
+  position:absolute;
+  z-index: 3;
+  margin-top: 409px;
+  margin-left: 570px;
+}
+
+#GF{
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: 600;
+  position:absolute;
+  font-size: 22px;
+  z-index: 3;
+  margin-top: 759px;
+  margin-left: 270px;
+}
+
+#paralefttop{
+  font-family: "helvetica";
+  font-weight: lighter;
+  font-size: 16px;
+  color: rgb(132,132,132);
+  position: absolute;
+  z-index: 3;
+  margin-top: 804px;
+  margin-left: 274px;
+  line-height: 25px;
+}
+
+#GF2{
+  font-family: "raleway";
+  font-weight: 600;
+  font-style: normal;
+  position:absolute;
+  font-size: 22px;
+  z-index: 3;
+  margin-top: 759px;
+  margin-left: 1029px;
+}
+
+#pararighttop{
+  font-family: "helvetica";
+  font-weight: lighter;
+  font-size: 16px;
+  color: rgb(132,132,132);
+  position: absolute;
+  z-index: 3;
+  margin-top: 804px;
+  margin-left: 1032px;
+  line-height: 25px;
+}
+
+#AGF{
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: 600;
+  position: absolute;
+  font-size: 22px;
+  z-index: 3;
+  margin-top: 930px;
+  margin-left: 270px;
+}
+
+#paraleftdown{
+  font-family: "helvetica";
+  font-weight: lighter;
+  font-size: 16px;
+  color: rgb(132,132,132);
+  position: absolute;
+  z-index: 3;
+  margin-top: 971px;
+  margin-left: 270px;
+  line-height: 25px;
+}
+
+#AGF2{
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: 600;
+  position:absolute;
+  font-size: 22px;
+  z-index: 3;
+  margin-top: 930px;
+  margin-left: 1032px;
+}
+
+#pararightdown{
+  font-family: "helvetica";
+  font-weight: lighter;
+  font-size: 16px;
+  color: rgb(132,132,132);
+  position: absolute;
+  z-index: 3;
+  margin-top: 971px;
+  margin-left: 1032px;
+  line-height: 25px;
+}
+
+#wdot1{
+  margin-top: 605px;
+  margin-left: 850px;
+  position: absolute;
+  z-index: 3;
+}
+
+#wdot2{
+  margin-top: 695px;
+  margin-left: 715px;
+  position: absolute;
+  z-index: 3;
+}
+
+#wdot3{
+  margin-top: 902px;
+  margin-left: 715px;
+  position: absolute;
+  z-index: 3;
+}
+
+#bdot{
+  margin-top: 810px;
+  margin-left: 849px;
+  position: absolute;
+  z-index: 3;
+}
+
+#line{
+  margin-top: 827px;
+  margin-left: 866px;
+  position: absolute;
+  z-index: 3;
+}
+
+#cursor{
+  margin-top: 825px;
+  margin-left: 864px;
+  position: absolute;
+  z-index: 3;
+}
+
+#vidpic{
+  margin-top: 1257px;
+  margin-left: 890px;
+  position: absolute;
+  z-index: 3;
+}
+
+#play{
+  margin-top: 1500px;
+  margin-left: 910px;
+  position: absolute;
+  z-index: 3;
+}
+
+#bar{
+  margin-top: 1512px;
+  margin-left: 997px;
+  position: absolute;
+  z-index: 3;
+}
+
+#apple{
+  margin-top: 1423px;
+  margin-left: 210px;
+  position: absolute;
+  z-index: 3;
+}
+
+#android{
+  margin-top: 1423px;
+  margin-left: 298px;
+  position: absolute;
+  z-index: 3;
+}
+
+#windows{
+  margin-top: 1423px;
+  margin-left: 386px;
+  position: absolute;
+  z-index: 3;
+}
+
+#cursor2{
+  margin-top: 1463px;
+  margin-left: 421px;
+  position: absolute;
+  z-index: 3;
+}
+
+
+
+#GTAT{
+  font-family: "raleway";
+  font-weight: 600;
+  font-style: normal;
+  position:absolute;
+  font-size: 22px;
+  z-index: 3;
+  margin-top: 1256px;
+  margin-left: 210px;
+}
+
+#paralast{
+  font-family: "helvetica";
+  font-weight: lighter;
+  font-size: 16px;
+  color: rgb(132,132,132);
+  position: absolute;
+  z-index: 3;
+  margin-top: 1303px;
+  margin-left: 210px;
+  line-height: 25px;
+}
+
+#app{
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  margin-top: 1681px;
+  margin-left: 389px;
+  position: absolute;
+  z-index: 3;
+  }
+
+  #blog{
+    font-family: "helvetica";
+    font-size: 14px;
+    margin-top: 1731px;
+    margin-left: 733px;
+    font-weight: bold;
+    position: absolute;
+    z-index: 3;
+  }
+
+  #blogger2{
+    font-family: "helvetica";
+    font-size: 14px;
+    margin-top: 1731px;
+    margin-left: 817px;
+    font-weight: normal;
+    position: absolute;
+    z-index: 3;
+  }
+
+#ppl{
+  position: absolute;
+  z-index: 3;
+  margin-top: 1802px;
+  margin-left: -4px;
+}
+
+#ppl2{
+  position: absolute;
+  z-index: 3;
+  margin-top: 1882PX;
+  margin-left: 914px;
+}
+
+#Touch{
+  position: absolute;
+  z-index: 3;
+  margin-top: 2180px;
+  margin-left: 678px;
+  font-family: "raleway";
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#text{
+  font-family: "helvetica";
+  font-weight: lighter;
+  font-size: 16px;
+  color: rgb(132,132,132);
+  position: absolute;
+  z-index: 3;
+  margin-top: 2224px;
+  margin-left: 556px;
+}
+
+#bird{
+  position: absolute;
+  z-index: 3;
+  margin-top: 2265px;
+  margin-left: 670px;
+}
+
+#face{
+  position: absolute;
+  z-index: 3;
+  margin-top: 2265px;
+  margin-left: 716px;
+}
+
+#plus{
+  position: absolute;
+  z-index: 3;
+  margin-top: 2265px;
+  margin-left: 804px;
+}
+
+#pin{
+  position: absolute;
+  z-index: 3;
+  margin-top: 2265px;
+  margin-left: 760px;
+}
+
+#link{
+  position: absolute;
+  z-index: 3;
+  margin-top: 2265px;
+  margin-left: 848px;
+}
+
+#tube{
+  position: absolute;
+  z-index: 3;
+  margin-top: 2265px;
+  margin-left: 892px;
+}
+
+.gray-box {
+  position: absolute;
+  z-index: 3;
+  background:rgba(132,132,132, 0.2);
+  width: 1600px;
+  height: 135px;
+  margin-top: 2362px;
+}
+
+#Contact{
+  font-family: "helvetica";
+  font-weight: lighter;
+  font-size: 16px;
+  color: rgb(132,132,132);
+  position: absolute;
+  z-index: 3;
+  margin-top: 2420px;
+  margin-left: 527px;
+}
+
+#Download{
+  font-family: "helvetica";
+  font-weight: lighter;
+  font-size: 16px;
+  color: rgb(132,132,132);
+  position: absolute;
+  z-index: 3;
+  margin-top: 2420px;
+  margin-left: 621px;
+}
+
+#Press{
+  font-family: "helvetica";
+  font-weight: lighter;
+  font-size: 16px;
+  color: rgb(132,132,132);
+  position: absolute;
+  z-index: 3;
+  margin-top: 2420px;
+  margin-left: 727px;
+}
+
+#Email{
+  font-family: "helvetica";
+  font-weight: lighter;
+  font-size: 16px;
+  color: rgb(132,132,132);
+  position: absolute;
+  z-index: 3;
+  margin-top: 2420px;
+  margin-left: 804px;
+}
+
+#Support{
+  font-family: "helvetica";
+  font-weight: lighter;
+  font-size: 16px;
+  color: rgb(132,132,132);
+  position: absolute;
+  z-index: 3;
+  margin-top: 2420px;
+  margin-left: 879px;
+}
+
+#Privacy{
+  font-family: "helvetica";
+  font-weight: lighter;
+  font-size: 16px;
+  color: rgb(132,132,132);
+  position: absolute;
+  z-index: 3;
+  margin-top: 2420px;
+  margin-left: 972px;
+}
+
+#cursor3{
+  position: absolute;
+  z-index: 3;
+  margin-top: 2286px;
+  margin-left: 778px;
+}
+
+#cursor4{
+  position: absolute;
+  z-index: 3;
+  margin-top: 1921px;
+  margin-left: 928px;
+}
