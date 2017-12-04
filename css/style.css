@@ -1,0 +1,91 @@
+@font-face
+{
+font-family: "Raleway";
+src: url(fonts/Raleway/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2);
+
+}
+
+*
+{
+margin: 0;
+
+}
+body
+{
+background-color: white;
+
+}
+div
+{
+
+
+}
+p
+{
+font-size: 10px;
+
+}
+#div1
+{
+height: 400px;
+
+
+}
+#div2
+{
+height: 275px;
+background-color: white;
+}
+#flower_Icon
+{
+height: 60px;
+width:  60px;
+align-content: center;
+}
+#sec_1
+{
+width: 260px;
+height: 40%;
+padding-top: 20%;
+
+}
+#header
+{
+font-family: "Raleway";
+
+
+}
+#get
+{
+height:500;
+background-color: white;
+padding-top: 20%;
+
+
+
+}
+
+#blogger{
+  padding-top: 3%;
+
+
+}
+#div4{
+  padding-top: 3%;
+  align-content: center;
+
+}
+#div5{
+  padding-left: 40%;
+}
+
+#div6{
+  padding-left: 45%;
+  padding-top: 1%;
+}
+#div7{
+  background-color: lightgrey;
+  word-spacing: 30px;
+  padding-left: 33%;
+
+}
