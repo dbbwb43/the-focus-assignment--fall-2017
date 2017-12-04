@@ -1,0 +1,361 @@
+body{
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Raleway Regular'), local('Raleway-Regular'), url('../fonts/Raleway/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Pacifico'), local('pacifico'), url('../fonts/Pacifico/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Raleway Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Light'), local('Raleway-Light'),url('../fonts/Raleway/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2');
+}
+@font-face {
+    font-family: 'Raleway Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Semibold'), local('Raleway-Semibold'),url('../fonts/Raleway/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2');
+}
+
+h1{
+  font-size: 22px;
+  font-family: 'Raleway Semibold';
+  line-height: 0.818;
+  margin-bottom: 30px;
+}
+h3{
+  font-size: 22px;
+  font-family: 'Raleway Semibold';
+  line-height: 0.818;
+  margin-bottom: 30px;
+  margin-top: 75px;
+}
+h4{
+  font-size: 22px;
+  font-family: 'Raleway Semibold';
+  margin-bottom: 25px;
+}
+
+p{
+  color: #a6a6a6;
+  font-size: 16px;
+  font-family: 'Helvetica';
+  line-height: 1.625;
+  margin-bottom: 60px;
+}
+header h1{
+  position: absolute;
+  font-size: 60px;
+  font-family: 'Pacifico';
+  line-height: 0.3;
+  text-align: center;
+  left: 765px; top: 140px;
+}
+header h2{
+  position: absolute;
+  font-size: 36px;
+  font-family: 'Raleway Light';
+  text-align: center;
+  left: 476px; top: 240px;
+}
+
+#features{
+  position: absolute;
+  width: 100%;
+  height: 496px;
+  top: 700px;
+  padding-top: 50px;
+}
+#features .left{
+  position: absolute;
+  width: 295px;
+  left: 264px; top: 60px;
+  display: inline-block;
+}
+#features .right{
+  position: absolute;
+  left: 1023px; top: 60px;
+  display: inline-block;
+}
+#content{
+  position: relative;
+  width: 533px;
+  left: -822px; top: 112px;
+  display: inline-block;
+}
+#testimonial{
+  position: absolute;
+  height: 737px;
+  text-align: center;
+  left:-640px; top:920px;
+}
+#testimonial h1{
+  position: relative;
+  font-family: 'Raleway';
+  font-size: 24px;
+  line-height: 1;
+
+}
+#testimonial p{
+  position: relative;
+  font-family: 'Helvetica';
+  font-size: 14px;
+  line-height: 1.714;
+  color:#000;
+  font-weight: bold;
+  left: -26px; top: 27px;
+}
+#testimonial h5{
+  position: relative;
+  font-family: 'Helvetica';
+  font-size: 14px;
+  line-height: 1.714;
+  color:#000;
+  left: 45px; top: -56px;
+}
+#say-hi h1{
+  position: relative;
+  font-family: 'Raleway Semibold';
+  font-size: 24px;
+  color: #000;
+  left:-350px; top: 800px;
+}
+#say-hi p{
+  position: relative;
+  font-family: 'Helvetica';
+  font-size: 16px;
+  color: #a6a6a6;
+  left: -120px;
+}
+.wrap{
+  width: 1600px;
+  height: 2494px;
+  margin: auto;
+  position: relative;
+  background: #F7F9F9;
+}
+
+.banner {
+  width: 1600px;
+  height: 700px;
+  margin: auto;
+}
+.phone {
+  width: 464px;
+  height: 806px;
+  margin: auto;
+  position: absolute;
+  left: 565px; top: 405px;
+}
+.down-arrow{
+  width: 50px;
+  height: 15px;
+  margin: auto;
+  position: absolute;
+  left: 767px; top: 330px;
+}
+.focus{
+  width: 68px;
+  height: 68px;
+  margin: auto;
+  position: absolute;
+  left: 670px; top: 115px;
+}
+.white-dot{
+  width: 26px;
+  height: 26px;
+  margin: auto;
+  position: absolute;
+  left: 838px; top: 608px;
+}
+.white-dot-2{
+  width: 26px;
+  height: 26px;
+  margin: auto;
+  position: absolute;
+  left: 710px; top: 695px;
+}
+.white-dot-3{
+  width: 26px;
+  height: 26px;
+  margin: auto;
+  position: absolute;
+  left: 710px; top: 907px;
+}
+.black-dot{
+  width: 32px;
+  height: 32px;
+  margin: auto;
+  position: absolute;
+  left: 840px; top: 838px;
+}
+.angled-line{
+  width: 137px;
+  height: 112px;
+  margin: auto;
+  position: absolute;
+  left: 855px; top: 855px;
+}
+.cursor{
+  width: 17px;
+  height: 19px;
+  margin: auto;
+  position: absolute;
+  left: 853px; top: 855px;
+}
+.box{
+  width: 1600px;
+  height: 425px;
+  margin: auto;
+  position: absolute;
+  background: #E5E7E9;
+  top: 1200px;
+}
+.people{
+  width: 1600px;
+  height: 318px;
+  margin: auto;
+  position: absolute;
+  top: 1800px;
+}
+.video-image{
+  width: 500px;
+  height: 307px;
+  margin: auto;
+  position: absolute;
+  left: 882px; top: 1255px;
+}
+.apple{
+  width: 68px;
+  height: 68px;
+  margin: auto;
+  position: absolute;
+  left: 203px; top: 1423px;
+}
+.android{
+  width: 68px;
+  height: 68px;
+  margin: auto;
+  position: absolute;
+  left: 290px; top: 1423px;
+}
+.windows{
+  width: 68px;
+  height: 68px;
+  margin: auto;
+  position: absolute;
+  left: 377px; top: 1423px;
+}
+.video-play-bar{
+  width: 376px;
+  height: 44px;
+  margin: auto;
+  position: absolute;
+  left: 985px; top: 1500px;
+}
+.active-person{
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  position: absolute;
+  left: 914px; top: 1880px;
+}
+.cursor-2{
+  width: 17px;
+  height: 19px;
+  margin: auto;
+  position: absolute;
+  left: 917px; top: 1937px;
+}
+.twitter{
+  width: 34px;
+  height: 34px;
+  margin: auto;
+  position: absolute;
+  left: 665px; top: 2271px;
+}
+.facebook{
+  width: 34px;
+  height: 34px;
+  margin: auto;
+  position: absolute;
+  left: 709px; top: 2271px;
+}
+.pinterest{
+  width: 34px;
+  height: 34px;
+  margin: auto;
+  position: absolute;
+  left: 753px; top: 2271px;
+}
+.google{
+  width: 34px;
+  height: 34px;
+  margin: auto;
+  position: absolute;
+  left: 797px; top: 2271px;
+}
+.linkedin{
+  width: 34px;
+  height: 34px;
+  margin: auto;
+  position: absolute;
+  left: 841px; top: 2271px;
+}
+.youtube{
+  width: 34px;
+  height: 34px;
+  margin: auto;
+  position: absolute;
+  left: 885px; top: 2271px;
+}
+.cursor-3{
+  width: 17px;
+  height: 19px;
+  margin: auto;
+  position: absolute;
+  left: 770px; top: 2293px;
+}
+
+
+/*-----footer-----*/
+
+footer nav{
+margin: auto;
+position: absolute;
+top: 58px;
+left: 500px;
+}
+footer nav ul{
+}
+footer nav ul li{
+  display: inline-block;
+  margin-left: 20px;
+  list-style: none;
+}
+footer nav ul li a{
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: #626567;
+}
+footer{
+  width: 100%;
+  background-color: #E5E7E9;
+  height: 134px;
+  top: 2369px;
+  position: absolute;
+
+}
