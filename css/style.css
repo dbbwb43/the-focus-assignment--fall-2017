@@ -1,142 +1,300 @@
-.banner {
-  width: 1600px;
-  height: 2494px;
-  margin: auto;
-  position: relative;
+body, html {
+  background-color: #f4f4f4;
+  font-family: Helvetica,Arial,sans-serif;
 }
 
-.iphone {
-  width: 1600px;
-  height: 0px;
-  margin: auto;
-  position: relative;
-  bottom: 2100px;
-  left: 575px;
+@font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Pacifico'), local('pacifico'), url('../fonts/Pacifico/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2') format('woff2');
 }
 
-.whitedot {
-  width: 30px;
-  height: 30px;
-  margin: auto;
-  position: relative;
-  bottom: 2825px;
-  left: 60px;
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Raleway Regular'), local('Raleway-Regular'), url('../fonts/Raleway/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2') format('woff2');
 }
 
-.whitedot2 {
-  width: 30px;
-  height: 30px;
-  margin: auto;
-  position: relative;
-  bottom: 2773px;
-  left: -68px;
+@font-face {
+    font-family: 'Raleway Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Light'), local('Raleway-Light'),url('../fonts/Raleway/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2');
 }
 
-.whitedot3 {
-  width: 30px;
-  height: 30px;
-  margin: auto;
-  position: relative;
-  bottom: 2600px;
-  left: -68px;
+@font-face {
+    font-family: 'Raleway Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway Semibold'), local('Raleway-Semibold'),url('../fonts/Raleway/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2');
 }
 
-.cursor {
+h1 {
+  color: #222222;
+  font-size: 22px;
+  font-family: 'Raleway Regular';
+  font-weight: bold;
+  line-height: 0.818;
+  margin-bottom: 30px;
+ }
+
+h2{
+  position: relative;
+  font-size: 24px;
+  font-family: 'Helvetica';
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+}
+
+p {
+  color: #a6a6a6;
+  font-size: 16px;
+  font-family: 'Helvetica';
+  line-height: 1.625;
+  margin-bottom: 60px;
+}
+
+h3 {
+  font-size: 22px;
+  font-family: 'Raleway Regular';
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-size: 16px;
+  font-family: 'Helvetica';
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+span{
+ padding-right: 24px;
+}
+
+header {
+  background: url("../img/large-banner-image.png") no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 916px;
+}
+
+header h1 {
+  position: relative;
+  font-size: 60px;
+  font-family: "Pacifico";
+  color: rgb(34, 34, 34);
+  line-height: 0.3;
+  text-align: center;
+  top: 98px;
+}
+
+header p {
+  position: relative;
+  font-size: 36px;
+  font-family: "Raleway";
+  color: rgb(34, 34, 34);
+  line-height: 0.5;
+  text-align: center;
+  top: 150px;
+}
+
+img.arrow{
+  position: absolute;
+  left: 698px;
+  top: 318px;
+}
+
+#iphone {
+  background: url("../img/iphone.png") no-repeat;
+  position: absolute;
+  left: 497px;
+  width: 464px;
+  height: 806px;
+  top:-300px;
+}
+
+#iphone .dot1{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  left: 270px;
+  top: 202px;
+}
+
+#iphone .dot2{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 148px;
+  top: 300px;
+}
+
+#iphone .dot3{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 275px;
+  top: 407px;
+}
+
+#iphone .cursor{
+  position: absolute;
   width: 18px;
   height: 20px;
-  margin: auto;
-  position: relative;
-  left: 75px;
-  bottom: 2580px;
+  left: 282px;
+  top: 420px;
 }
 
-.blackdot {
-  width: 36px;
-  height: 36px;
-  margin: auto;
-  position: relative;
-  bottom: 2725px;
-  left: 70px;
+#iphone .line{
+  position: absolute;
+  width: 137px;
+  height: 112px;
+  left: 294px;
+  top: 440px;
 }
 
-.focus {
-  width: 1600px;
-  height: 0px;
-  margin: auto;
-  position: relative;
-  bottom: 2400px;
-  left: 1225px;
+#iphone .dot4{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 148px;
+  top: 496px;
 }
 
-.down-arrow {
-  width: 1600px;
-  height: 0px;
-  margin: auto;
-  position: relative;
-  bottom: 2240px;
-  left: 775px;
+#features{
+  position: absolute;
+  width:100%;
+  height:496px;
+  top: 700px;
+  padding-top: 50px;
 }
 
-.box {
-  width: 1600px;
-  height: 430px;
-  margin: auto;
+#features .left{
   position: relative;
-  bottom: 1350px;
-  background-color: #e3e3e3;
+  width: 295px;
+  left: 195px;
+  display: inline-block;
 }
 
-.box2 {
-  width: 1600px;
-  height: 200px;
-  margin: auto;
+#features .right{
   position: relative;
-  bottom: 550px;
-  background-color: #e3e3e3
+  width: 295px;
+  left: 650px;
+  display:inline-block;
 }
 
-.people {
-  width: 1600px;
-  height: 0px;
-  margin: auto;
-  position: relative;
-  bottom: 1350px;
+#container {
+  background-color: rgb(227, 227, 227);
+  position: absolute;
+  width: 100%;
+  height: 427px;
+  top: 1196px;
+  overflow: hidden;
 }
 
-.video {
-  width: 1280px;
-  height: 0px;
-  margin: auto;
+#content {
   position: relative;
-  left: 730px;
-  bottom: 1919px;
+  width: 533px;
+  left:132px;
+  top: 60px;
+  display:inline-block;
 }
 
-.videoplay {
-  width: 371px;
-  height: 71px;
-  margin: auto;
-  position: relative;
-  left: 380px;
-  bottom: 1680px;
+#content img{
+  padding-right: 10px;
 }
 
-.play {
+#video {
+  background: url("../img/video-image.png") no-repeat;
+  position: absolute;
+  width: 100%;
+  height:100%;
+  left: 810px;
+  top: 60px;
+  display: inline-block;
+}
+
+#video .play{
   width: 76px;
   height: 43px;
-  margin: auto;
+  left: 908px;
+  padding-top: 243px;
+  padding-left: 14px;
+}
+#video .bar{
   position: relative;
-  left: 145px;
-  bottom: 1750px;
+  width: 371px;
+  height: 33px;
+  left: 15px;
 }
 
-.active {
+#bottom-container{
+  position: absolute;
+  width:100%;
+  height:737px;
+  top:1623px;
+  text-align: center;
+}
+
+#bottom-container h1{
+  position: relative;
+  font-size: 24px;
+  font-family: "Raleway";
+  color: rgb(0, 0, 0);
+  line-height: 1;
+  top: 60px;
+}
+
+#bottom-container p{
+  position: relative;
+  font-size: 14px;
+  font-family: "Helvetica Neue";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.714;
+  top: 30px;
+}
+
+#bottom-container img{
+  position: relative;
+  padding-right: 7px;
+}
+
+#bottom-container .cursor{
+  position: absolute;
+  left: 647px;
+  top: 595px;
+  width: 18px;
+  height: 20px;
+}
+
+#banner{
+  background-image: url("../img/people.png");
+  background-repeat: repeat-y;
+  width: 100%;
+  height: 321px;
+  top: 1802px;
+}
+
+#banner .active-person {
+  position: absolute;
   width: 80px;
   height: 80px;
-  margin: auto;
-  position: relative;
-  left: 155px;
-  bottom: 1385px;
+  left: 914px;
+  top: 205px;
+}
+
+#banner .cursor {
+  position: absolute;
+  width: 18px;
+  height: 20px;
+  left: 924px;
+  top: 260px;
 }
 
 .cursor2 {
@@ -144,169 +302,26 @@
   height: 20px;
   margin: auto;
   position: relative;
-  left: 135px;
-  bottom: 1430px;
+  top: 1510px;
+  right: 335px;
 }
 
-.angleline {
-  width: 36px;
-  height: 36px;
-  margin: auto;
-  position: relative;
-  bottom: 2750px;
-  left: 85px;
-}
-
-.apple {
-  width: 68px;
-  height: 68px;
-  margin: auto;
+footer {
   position: absolute;
-  left: 760px;
-  bottom: -215px;
-}
-
-.android {
-  width: 68px;
-  height: 68px;
-  margin: auto;
-  position: absolute;
-  left: 850px;
-  bottom: -215px;
-}
-
-.windows {
-  width: 68px;
-  height: 68px;
-  margin: auto;
-  position: absolute;
-  left: 935px;
-  bottom: -215px;
-}
-
-.cursor3 {
-  width: 18px;
-  height: 20px;
-  margin: auto;
-  position: absolute;
-  left: 970px;
-  bottom: -210px;
-}
-
-.twitter {
-  width: 34px;
-  height: 34px;
-  margin: auto;
-  position: relative;
-  bottom: 1245px;
-  right: 108px;
-}
-
-.facebook {
-  width: 34px;
-  height: 34px;
-  margin: auto;
-  position: relative;
-  bottom: 1278px;
-  right: 66px;
-}
-
-.pinterest {
-  width: 34px;
-  height: 34px;
-  margin: auto;
-  position: relative;
-  bottom: 1313px;
-  right: 20px;
-}
-
-.google {
-  width: 34px;
-  height: 34px;
-  margin: auto;
-  position: relative;
-  bottom: 1346px;
-  right: -22px;
-}
-
-.linkedin {
-  width: 34px;
-  height: 34px;
-  margin: auto;
-  position: relative;
-  bottom: 1380px;
-  left: 66px;
-}
-
-.youtube {
-  width: 34px;
-  height: 34px;
-  margin: auto;
-  position: relative;
-  bottom: 1415px;
-  left: 110px;
-}
-
-.cursor4 {
-  width: 18px;
-  height: 20px;
-  margin: auto;
-  position: relative;
-  bottom: 1428px;
-  left: -12px;
-}
-
-h1 {
-  font-family: "Pacifico";
-    font-size: 60pt;
-    text-align: center;
-    text-indent: 78px;
-}
-
-h2 {
-  font-family: 'Raleway Light';
-  font-style: normal;
-  font-weight: 100;
-  font-size: 36pt;
+  background: #e3e3e3;
   text-align: center;
+  width: 100%;
+  height: 139px;
+  top:2360px;
 }
 
-h3 {
-  font-family: 'Raleway Semibold';
-  font-style: normal;
-  font-weight: 100;
-  font-size: 22pt;
-  text-align: center;
-}
-
-h4 {
-  font-family: 'Raleway Semibold';
-  font-style: normal;
-  font-weight: 100;
-  font-size: 22pt;
-  text-align: center;
-}
-
-h5 {
-  font-family: 'Raleway Semibold';
-  font-style: normal;
-  font-weight: 100;
-  font-size: 22pt;
-  text-align: center;
-}
-
-h6 {
-  font-family: 'Raleway Semibold';
-  font-style: normal;
-  font-weight: 100;
-  font-size: 22pt;
-  text-align: center;
-}
-
-h7 {
-  font-family: 'Raleway Semibold';
-  font-style: normal;
-  font-weight: 100;
-  font-size: 22pt;
-  text-align: right;
+footer p {
+  position: relative;
+  color: rgb(132, 132, 132);
+  font-size: 16px;
+  font-family: "Helvetica Neue";
+  line-height: 1.625;
+  padding-right: 16px;
+  top:60px;
+  display: inline;
 }
