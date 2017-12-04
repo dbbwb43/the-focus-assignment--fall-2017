@@ -1,0 +1,39 @@
+@font-face {
+     font-family: Pacifico;
+     src:url(../fonts/Pacifico/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2);
+}
+@font-face {
+     font-family:Raleway-light;
+     src:url(../fonts/Raleway/fonts/Raleway/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2);
+}
+
+
+
+#container {
+       left:40%;
+       margin-left:800px;
+       position:relative;
+       max-width:1600px;
+
+}
+
+#header-space {
+     position:absolute;
+     text-align:center;
+     width:800px
+     top:100px
+     left:50%
+     margin-left:-400px;
+}
+
+#focus {
+        vertical-align:top;
+        font-family:'Pacifico', sans-serif;
+        font-size:30pt
+}
+
+#quote{
+     margin-top:60px
+     font-family:'Raleway-light', sans-serif
+     font-size:30pt;
+}
