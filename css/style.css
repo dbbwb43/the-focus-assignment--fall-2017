@@ -1,0 +1,391 @@
+/*I worked on this project on a Windows machine, so I styled all text that used the Helvetica font with "sans-serif" as well.*/
+
+html {
+  width: 1600px;
+  height: 2494px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  body {
+  width: 1600px;
+  height: 2494px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*background-color: #f4f4f4;*/
+}
+
+
+@font-face {
+  font-family: "Raleway SemiBold";
+  src: url('fonts/Raleway/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2');
+}
+
+@font-face {
+  font-family: "Pacifico Regular";
+  src: url('fonts/Pacifico/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2');
+}
+
+h1{
+  font-size: 60px;
+  font-family: "Pacifico Regular";
+  text-align: center;
+}
+
+h2 {
+  font-family: "Raleway Semibold";
+  font-size: 22px;
+}
+
+p {
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#logo p {
+  font-family: "Raleway";
+  font-size: 32px;
+  text-align: center;
+}
+
+#header {
+  width: 1600px;
+  height: 700px;
+  /*background-color: #00ef0a;*/
+  background-image: url("../img/large-banner-image.png");
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer {
+  width: 1600px;
+  height: 140px;
+  top: 2354px;
+  left: 50%;
+  margin-left: -800px;
+  position: absolute;
+  background-color: #e3e3e3;
+}
+
+#logo {
+  width: 640px;
+  height: auto;
+  margin: 0 auto 0 auto;
+  top: 120px;
+  position: relative;
+  /*background-color: #ffffcc;*/
+}
+
+#focus-logo {
+  text-align: center;
+}
+
+#focus-logo-text {
+  width: 240px;
+  font-size: 60px;
+  margin: 0 auto 0 auto;
+}
+
+#logo-image {
+  width: 60px;
+  display: inline-block;
+  height: auto;
+}
+
+#focus-logo-holder {
+  width: 68px;
+  height: 68px;
+  background-color: #000;
+}
+
+
+#phone {
+  width: auto;
+  height: 726px;
+  /* background-color: #00cfb1; */
+  margin: 300px auto 0 auto;
+  position: absolute;
+  left: 591px;
+  z-index: 1000;
+}
+
+#container {
+  width: 1200px;
+  height: 1656px;
+  /* background-color: #f4f4f4; */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 500;
+}
+
+.great-feature-left {
+  width: 320px;
+  height: auto;
+  line-height: 26px;
+  margin: 70px 0 0 70px;
+  position: absolute;
+}
+
+.great-feature-right {
+  width: 320px;
+  height: auto;
+  line-height: 26px;
+  margin: 70px 0 0 830px;
+  position: absolute;
+}
+
+.great-feature-left p {
+  color: #848484;
+}
+
+.great-feature-right p {
+  color: #848484;
+}
+
+#get-app-today {
+  width: 1600px;
+  height: 432px;
+  top: 480px;
+  left: 50%;
+  margin-left: -800px;
+  position: absolute;
+  background-color: #e3e3e3;
+  z-index: 1001;
+}
+
+#get-app-text {
+  width: 540px;
+  height: auto;
+  top: 60px;
+  left: 210px;
+  line-height: 26px;
+  position: absolute;
+  z-index: 1002;
+}
+
+#get-app-text p {
+  color: #848484;
+}
+
+#app-video {
+  width: 500px;
+  height: 304px;
+  /* background-color: #ccddff; */
+  top: 60px;
+  left: 890px;
+  position: absolute;
+  z-index: 1002;
+}
+
+#video-controls {
+  width: auto;
+  height: 42px;
+  /* background-color: #ff0000; */
+  top: 300px;
+  left: 910px;
+  position: relative;
+  z-index: 1200;
+  word-spacing: 14px;
+}
+
+#video-bar {
+  width: auto;
+  height: 42px;
+  /* background-color: #ff0000; */
+  top: 300px;
+  left: 924px;
+  position: relative;
+  z-index: 1200;
+  word-spacing: 14px;
+}
+
+#down-arrow {
+  width: 50px;
+  height: auto;
+  position: absolute;
+  top: 334px;
+  left: 774px;
+  z-index: 1600;
+}
+
+#left-dot-top {
+  width: 26px;
+  height: auto;
+  position: absolute;
+  top: 700px;
+  left: 714px;
+  z-index: 1600;
+}
+
+#left-dot-bottom {
+  width: 26px;
+  height: auto;
+  position: absolute;
+  top: 880px;
+  left: 714px;
+  z-index: 1600;
+}
+
+#right-dot {
+  width: 26px;
+  height: auto;
+  position: absolute;
+  top: 630px;
+  left: 850px;
+  z-index: 1600;
+}
+
+#black-dot {
+  width: 32px;
+  height: auto;
+  position: absolute;
+  top: 830px;
+  left: 850px;
+  z-index: 1600;
+}
+
+#active-person {
+  width: 80px;
+  height: auto;
+  position: absolute;
+  top: 80px;
+  left: 914px;
+  z-index: 1650;
+}
+
+#app-icons-container {
+  width: 240px;
+  height: 70px;
+  /*background-color: #000*/
+  word-spacing: 10px;
+  top: 235px;
+  left: 210px;
+  position: absolute;
+  z-index: 1003;
+}
+
+#soc-icons-container {
+  width: 240px;
+  height: 35px;
+  /* background-color: #000; */
+  top: 90px;
+  left: 480px;
+  position: absolute;
+  z-index: 1003;
+}
+
+#focus-quote {
+  text-align: center;
+  width: 1200px;
+  height: auto;
+  top: 970px;
+  left: 50%;
+  margin-left: -600px;
+  position: absolute;
+  z-index: 1004;
+}
+
+#focus-quote p:nth-child(1) {
+  font-family: "Raleway";
+  font-size: 22px;
+}
+
+#focus-quote p:nth-child(2) {
+  font-family: "Helvetica";
+  font-size: 14px;
+}
+
+#people {
+  width: 1600px;
+  height: 318px;
+  top: 1080px;
+  left: 50%;
+  margin-left: -800px;
+  position: absolute;
+  /* background-color: #ec2; */
+  background-image: url("../img/people.png");
+  z-index: 1002;
+}
+
+#say-hi {
+  text-align: center;
+  width: 1200px;
+  height: auto;
+  top: 1458px;
+  left: 50%;
+  margin-left: -600px;
+  position: absolute;
+  z-index: 1004;
+}
+
+#say-hi p:nth-child(1) {
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#say-hi p:nth-child(2) {
+  font-family: "Helvetica";
+  font-size: 16px;
+  color: #848484;
+}
+
+#footer p {
+  position: relative;
+  color: #848484;
+  top: 60px;
+  font-size: 16px;
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+  word-spacing: 25px;
+}
+
+.kyle-turner {
+  font-weight: bold;
+}
+
+.privacy-policy {
+  word-spacing: normal;
+}
+
+#hand-1 {
+  width: 32px;
+  height: auto;
+  position: absolute;
+  top: 845px;
+  left: 859px;
+  z-index: 1601;
+}
+
+#hand-2 {
+  width: 32px;
+  height: auto;
+  position: absolute;
+  top: 50px;
+  left: 205px;
+  z-index: 1601;
+}
+
+#hand-3 {
+  width: 32px;
+  height: auto;
+  position: absolute;
+  top: 120px;
+  left: 970px;
+  z-index: 1651;
+}
+
+#hand-4 {
+  width: 32px;
+  height: auto;
+  position: absolute;
+  top: 15px;
+  left: 95px;
+  z-index: 1651;
+}
