@@ -1,0 +1,303 @@
+.size{
+   width: 1600px;
+}
+.row-two{
+   height: 500px;
+   width: 1600px;
+}
+.angled-line{
+   position: relative;
+   left: 233px;
+   bottom: 744px;
+}
+.paragraph-spacing{
+   padding-bottom: 50px;
+   padding-top: 8px
+}
+.line-spacing{
+   line-height: 1.5;
+}
+#container{
+   width: 1600px;
+   height: 2494px;
+   margin: 0;
+   padding: 0;
+}
+.quote-font{
+   font-family: Raleway;
+   font-style: normal;
+   font-size: 1.5em;
+   color: #222222;
+}
+.blogger-font{
+   font-family: "Helvetica Neue";
+   font-style: normal;
+   color: #222222;
+   font-size: 0.875em;
+   font-weight: 700;
+}
+.name-font{
+   font-family: "Helvetica Neue";
+   font-style: normal;
+   color: #222222;
+   font-size: 0.875em;
+}
+p.note {
+font-family: Raleway;
+   font-style: normal;
+   font-weight: 300;
+   color: #222222;
+   font-size: 2.25em;
+}
+p {
+   font-family: "Helvetica Neue";
+   font-style: normal;
+   color: #848484;
+   font-size: 1em;
+}
+h2 {
+   font-family: Raleway;
+   font-style: normal;
+   font-weight: 600;
+   color: #222222;
+   font-size: 1.4em;
+}
+@font-face {
+   font-family: Helvetica Neue;
+   font-style: normal;
+}
+@font-face {
+   font-family: Pacifico;
+   font-style: normal;
+   src: url(../fonts/Pacifico/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2);
+}
+@font-face {
+   font-family: Raleway;
+   font-style: normal;
+   src: url(../fonts/Raleway/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2);
+}
+@font-face {
+   font-family: Raleway;
+   font-style: normal;
+   font-weight: 300;
+   src: url(../fonts/Raleway/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2);
+}
+@font-face {
+   font-family: Raleway;
+   font-style: normal;
+   font-weight: 600;
+   src: url(../fonts/Raleway/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2);
+}
+.great-feature-row{
+   background-color: #f4f4f4;
+}
+.great-feature-padding{
+   padding-left: 54px;
+}
+.second-row-padding{
+   padding-left: 270px;
+}
+.background-image{
+   background-image: url(../comps/focus.jpg);
+   background-size: cover;
+   width: 1600px;
+}
+.landing-padding{
+   padding-top: 40px;
+}
+.focus-image {
+   padding-right: 12px;
+   display: inline-block;
+}
+.focus-alignment{
+   vertical-align: middle;
+}
+.focus {
+   display: inline-block;
+   font-family: Pacifico;
+   font-size:3.75em;
+}
+.between-padding{
+   padding-top: 101px;
+}
+.header-background-image {
+   background-image: url(../img/large-banner-image.png);
+   background-size: cover;
+   width: 100%;
+   height: 700px;
+   text-align: center;
+}
+.down-arrow-image {
+   vertical-align: middle;
+   position: relative;
+   top: 143px;
+}
+.iphone-image{
+   right: 62px;
+   position: relative;
+   top: -362px;
+}
+.great-feature-column-left {
+   width: 27%;
+   display: inline-block;
+   vertical-align: top;
+}
+.great-feature-column-middle {
+   width: 30%;
+   display: inline-block;
+}
+.great-feature-column-right {
+   width: 27%;
+   display: inline-block;
+   vertical-align: top;
+}
+#iphone{
+   position: relative;
+}
+.white-dot-bottom{
+   position: absolute;
+   z-index: 1;
+   top: 145px;
+   right: 288px;
+}
+.white-dot-top{
+   position: absolute;
+   z-index: 1;
+   top: -167px;
+   right: 160px;
+}
+.white-dot-middle{
+   position: absolute;
+   z-index: 1;
+   top: -54px;
+   right: 288px;
+}
+.black-dot{
+   position: absolute;
+   top: 44px;
+   right: 150px;
+   z-index: 1;
+}
+.play-button {
+   width: 16%;
+   position:absolute;
+   bottom: 14px;
+   left: 59px;
+}
+.video-playbar {
+   position:absolute;
+   bottom: 14px;
+   left: 140px;
+}
+.video-image {
+   position:relative;
+   left: 40px;
+   top: 0px;
+}
+.get-app-header {
+   padding-bottom: 12px;
+}
+.get-app-image {
+   display: inline-block;
+   text-align: left;
+   width: 39%;
+}
+.get-app-row {
+   background-color: #e3e3e3;
+}
+.get-app-content{
+   text-align: left;
+   vertical-align: top;
+   display: inline-block;
+   width: 50%;
+   padding-left: 5px;
+}
+.side-padding{
+   padding-right: 200px;
+   padding-left: 200px;
+}
+.quote-row{
+   background-color: #f4f4f4;
+}
+.quote-top{
+   padding-top: 5px
+}
+.name-padding{
+   padding-top: 5px
+}
+.quote{
+   text-align: center;
+}
+.social-media-image-list li{
+   display: inline-block;
+   margin-left: 5px;
+   margin-top: 20px;
+}
+.social-media{
+   text-align: center;
+   background-color: #f4f4f4;
+}
+.site-row{
+   padding-bottom: 50px;
+   padding-top: 50px;
+}
+#people{
+   position: relative;
+}
+.people-image{
+   width: 100%;
+}
+.active-person{
+   position: absolute;
+   top: 81px;
+   right: 606px;
+}
+.cursor-iphone{
+   position: absolute;
+   z-index: 1;
+   top: 60px;
+   right: 152px;
+}
+.cursor-person{
+   position: absolute;
+   z-index: 1;
+   right: 660px;
+   top:137px;
+}
+#social-media-icons{
+   position: relative;
+}
+.cursor-media{
+   position: absolute;
+   z-index: 1;
+   top: 173px;
+   right: 804px;
+}
+.social-header{
+   font-size: 1.5em;
+}
+.site-content{
+   padding-bottom: 20px;
+}
+.footer-list li{
+   display: inline-block;
+   margin-right:24px;
+}
+.footer-list{
+   display: inline-block;
+}
+.footer-row{
+   width: 1600px;
+   height: 134px;
+}
+.footer{
+   text-align: center;
+   color: #848484;
+   background-color: #e3e3e3;
+   padding-bottom: 80px;
+   padding-top: 80px;
+   font-family: "Helvetica Neue";
+   font-style: normal;
+   color: #848484;
+   font-size: 1em;
+}
