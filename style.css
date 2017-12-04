@@ -1,0 +1,61 @@
+h1 {
+	font: 1rem 'Pacifico Regular' 
+}
+div:nth-child(2) {
+	background-color: #e3e3e3;
+
+	text-align: left;
+}
+
+li {}
+
+body {
+	background-color: #f4f4f4;
+	width: 600px;
+	margin: auto;
+	font: 1rem 'Raleway Regular';
+}
+
+h1 {
+	font-weight: 200px;
+	margin: 50px 0;
+	text-align: center;
+	font-size: 60px
+}
+
+h2 {
+	text-align: center;
+	font-size: 32px;
+}
+
+h3,h4,h5,h6, {
+	font: 32px;
+	font-weight: 0px;
+	text-align: left;
+	font-size: 21px ;
+}
+
+h4,h6 {
+	margin-left: 350px;
+	margin-top: -70px;
+	padding: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	line-height: 1;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+footer {
+	display: inline-block;
+}
+
+main {line-height: 2;
+}
+
+footer div {line-height: 1
+}
