@@ -1,0 +1,212 @@
+
+html{
+width: 1600px; 
+length: 2494px;
+position:  relative;
+margin-left: auto;
+margin-right: auto;
+}
+
+body{
+	width: 1600px;
+	length: 2949px;
+}
+header{
+    background-image: url(../Downloads/large-banner-image-1.png);
+	height: 700px;
+	
+	
+}
+
+@font-face {
+	   font-family: Pacifico;
+   font-style: normal;
+  src: url(../fonts/Pacifico/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2);
+}
+@font-face {
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif" ;
+  src: url(../Downloads/raleway (1)/Raleway-Bold.ttf);
+}
+	
+h1{
+	font-size: 60px;
+	font-family: Pacifico;
+	text-align: center;
+}
+
+h2{
+	font-family:
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 18px;
+}
+p{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #848484;
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 26px;
+}
+#logo+text{
+	width:240px;
+		font-size: 60px;
+	       margin: 0 0;
+
+	
+}
+#focuslogo {
+	width: 68px;
+	display: inline-block;
+	height: auto;
+}
+#header{
+	width: 1600px;
+	height: 700px;
+	background-image: url(https://raw.githubusercontent.com/code-warrior/the-focus-assignment--fall-2017/DO_NOT_WORK_IN_THIS_BRANCH/img/large-banner-image.png);
+	
+}
+
+.subheading 
+{text-align: center;
+font-size: 40px;
+	font-weight: 140
+}
+.focussub
+{position: absolute;
+top: 180px;
+right:480px;}
+
+.featurearea{
+	padding-top: 560px;
+}
+.featurearea p {
+	padding-top: 20px;
+}
+.leftfeaturecolumn {
+text-align : left;
+font-family : 'Raleway Thin', sans-serif;
+font-size : 16px;
+line-height : 28px;
+position : absolute;
+top : 760px;
+right : 1028px;
+}
+.rightfeaturecolumn {
+text-align : left;
+font-family : 'Raleway Thin', sans-serif;
+font-size : 16px;
+line-height : 26px;
+position : absolute;
+top : 760px;
+right : 320px;
+}
+.iphoneimage{
+
+position : absolute;
+top : 458px;
+right : 563px;
+}
+.whitedot1{
+	position: absolute;
+	top: 675px;
+	right: 725px;
+}
+.whitedot2{
+	position: absolute;
+	top: 740px;
+	right: 850px;
+}
+.whitedot3{
+	position: absolute;
+	top: 940px;
+	right: 850px;}
+.blackdot{
+    position : absolute;
+    top : 825px;
+    right : 718px;
+}
+.socialmediaarea{
+	padding-top: 55px;
+	padding-bottom: 245px;
+	padding-left: 210px;
+	background-color:#DEDEDE;
+}
+.socialmediaarea h1 {
+	font-size: 22px;
+	text-align: left;
+	font-family: 'Raleway Thin', sans-serif;
+}
+.socialmediaarea p {
+	text-align: left;
+	font-size: 16px;
+	line-height: 28px;
+}
+.video{
+	position: absolute;
+	top:1395px;
+	right: 210px;
+}
+.playbar{
+	position: absolute;
+	top:1650px;
+	right: 220px;
+}
+.play{
+	position: absolute;
+	top: 1655px;
+	right:615px;
+}
+.appl{
+	position: absolute;
+	
+}
+.andrd{
+	position: absolute;
+	right:1230px;
+}
+.windo{
+	position: absolute;
+	right:1140px;
+}
+.quote{
+	position: absolute;
+	right: 399px;
+	top: 1890px
+	
+}
+
+.mainquote {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 150
+}
+.blogger {
+	text-align: center; 
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+}
+.pplbanner {
+	position: absolute;
+	top: 2060px;
+}
+.actvppl{
+	position: absolute;
+	top: 80px;
+	right: 605px;
+}
+.end {
+	font-family: 'Raleway Thin', sans-serif;
+	text-align: center;
+	position: absolute;
+	right:559px;
+	top: 2420px
+	
+}
+.conclusion  {
+	font-size: 16px;
+}
+li{ display:inline;
+right: 700px;}
+.arrow{
+	align-content: center
+}
